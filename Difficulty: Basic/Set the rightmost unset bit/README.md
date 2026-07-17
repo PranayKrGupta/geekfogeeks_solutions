@@ -6,4 +6,4 @@
 <pre><span style="font-size: 18px;"><strong>Input: </strong>n = 15</span>
 <span style="font-size: 18px;"><strong>Output: </strong>31</span>
 <span style="font-size: 18px;"><strong>Explanation: </strong>The binary representation of 15 is 01111. After setting right most bit it becomes 11111 which is 31.</span></pre>
-<p><span style="font-size: 18px;"></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;<code>Data Structures</code>&nbsp;
+<p><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Bit Magic</code>&nbsp;
