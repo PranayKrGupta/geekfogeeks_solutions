@@ -1,0 +1,9 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/kth-smallest-factor2345/1">Kth Smallest Factor</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p><span style="font-size: 18px;">Given a number <strong>n</strong> and an integer <strong>k</strong>, find the k-th smallest divisor (factor) of n. If the k-th divisor does not exist, return -1.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>n = 12, k = 5<strong>
+Output: </strong>6<strong>
+Explanation: </strong>Divisors of 12 in sorted order are: 1, 2, 3, 4, 6, 12. The 5th smallest divisor is 6.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> n = 16, k = 2<strong>
+Output: </strong>2<strong>
+Explanation: </strong>Divisors of 16 in sorted order are: 1, 2, 4, 8, 16. The 2nd smallest divisor is 2.</span></pre>
+<p><span style="font-size: 18px;"><strong>Constraints:</strong></span><br><span style="font-size: 18px;">1&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤</span>&nbsp;n&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤ </span>10<sup>9</sup><br>1&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤</span>&nbsp;k&nbsp;<span style="color: #273239; font-family: Nunito; font-size: 17px; background-color: #ffffff;">≤</span> 10<sup>9</sup></span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Mathematical</code>&nbsp;
