@@ -1,17 +1,18 @@
 class Solution {
-    int solve(vector<int> &arr,vector<int> &dp,int i){
-        if(i==arr.size()-1){
-            return 0;
-        }else if(i>=arr.size()){
-            return 1e4+1;
-        }
-        if(dp[i]!=-1) return dp[i];
-        return dp[i]=min(abs(arr[i]-arr[i+1])+solve(arr,dp,i+1),abs(arr[i]-arr[i+2])+solve(arr,dp,i+2));
-    }
   public:
     int minCost(vector<int>& height) {
         // Code here
-        vector<int> dp(height.size()+1,-1);
-        return solve(height,dp,0);
+        int n=height.size();
+        vector<int> dp(n+1,-1);
+        dp[n-1]=0;
+        for(int i=n-2;i>=0;i--){
+            int step1=dp[i+1]+abs(height[i]-height[i+1]);
+            int step2=INT_MAX;
+            if(i<n-2){
+                step2=dp[i+2]+abs(height[i]-height[i+2]);
+            }
+            dp[i]=min(step1,step2);
+        }
+        return dp[0];
     }
 };
